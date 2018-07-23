@@ -1,0 +1,43 @@
+/*------------------------------------*\
+  #SECTION-FEATURED
+\*------------------------------------*/
+.feature {
+	background-color: $b-g;
+
+	.feature__content {
+		
+		padding: 0 40px;
+		text-align: center;
+		margin-bottom: 15px;
+
+		.feature__name {
+			font-size: 18px;
+			font-weight: $bold;
+			letter-spacing: 1.2px;
+		}
+
+		@media screen and (min-width: $bp-medium) and (max-width: $bp-large) {
+			padding: 0 15px;
+			text-align: left;
+			
+			.feature__name {
+				height: 50px;
+			}
+
+			img {
+				height: 35px;
+			}
+		}
+		
+		@media screen and (min-width: $bp-desktop) {
+			padding: 0 70px;
+			text-align: left;
+			.desc-section {
+				width: 270px;
+				font-size: 16px;
+			}
+		}
+
+	}
+
+}

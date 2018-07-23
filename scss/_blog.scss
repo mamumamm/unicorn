@@ -1,0 +1,83 @@
+/*------------------------------------*\
+  #SECTION-BLOG
+\*------------------------------------*/
+.blog {
+
+	.blog__content {
+
+		.blog__date {
+			margin-bottom: 0;
+			letter-spacing: 1px;
+		}
+
+		.blog__title {
+			font-weight: 600;
+			font-size: 24px;
+		}
+
+		.blog__desc {
+
+		}
+
+		.blog__img {
+			width: 100%;
+			height: 210px;
+		}
+
+		@media screen and (min-width: $bp-medium) {
+			.blog__title {
+				margin-bottom: 30px!important;
+			}
+
+			.blog__desc {
+				max-width: 425px;
+			}
+
+			.blog__img {
+				width: 100%;
+				height: 370px;
+			}
+		}
+
+		@media screen and (min-width: $bp-large) {
+			.blog__title {
+				margin-bottom: 25px!important;
+			}
+
+			.blog__img {
+				height: 270px;
+			}
+		}
+
+		@media screen and (min-width: $bp-desktop) {
+
+			.blog__img {
+				height: 400px;
+			}
+		}
+	}
+
+	.blog__slide {
+		padding: 40px 0;
+		background-color: $b-g;
+		margin-top: 50px;
+
+		.blog__slide-content {
+			border-left: 6px solid $c-b;
+			padding: 8px 20px;
+			.blog__title {
+				font-weight: 600;
+				font-size: 17px;
+			}
+
+			.blog__date {
+				letter-spacing: 1px;
+			}
+		}
+
+		@media screen and (min-width: $bp-medium) {
+			padding: 70px 0;
+			margin-top: 90px;
+		}
+	}
+}

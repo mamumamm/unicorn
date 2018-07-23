@@ -1,0 +1,105 @@
+/*------------------------------------*\
+  GLOBAL
+\*------------------------------------*/
+body {
+	font-family: $base-font-family;
+	font-weight: $base-font-weight;
+	font-size: $base-font-size;
+}
+
+.about-us,
+.feature,
+.article,
+.portfolio,
+.team,
+.our-work,
+.blog {
+	padding: 100px 0;
+}
+
+.title-section {
+	letter-spacing: 2px;
+	font-size: 27px;
+	font-weight: 700;
+}
+
+.desc-section {
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	line-height: 2;
+}
+
+.small {
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	line-height: 2;
+}
+
+.line {
+    span {
+        display: inline-block;
+        padding: 1px 43px;
+        margin-bottom: 20px;
+    }
+}
+
+.line--orange {
+    span {
+        background: #ea5600;
+        padding: 3px 23px;
+
+        @media screen and (min-width: $bp-medium) {
+			padding: 3px 30px;
+		}
+		@media screen and (min-width: $bp-desktop) {
+			padding: 3px 35px;
+		}
+    }
+}    
+
+.slick-arrow {
+	color: black;
+
+	&::before {
+		color: $c-b;
+		font-size: 30px;
+	}
+
+	@media screen and (max-width: $bp-medium) {
+		display: none!important;
+	}
+}
+.slick-prev {
+	left: -80px;
+
+	&::before {
+		content: url("../images/chevron_left.png");
+	}
+}
+.slick-next {
+	right: -80px;
+
+	&::before {
+		content: url("../images/chevron_right.png");
+	}
+}
+
+.slick-dots {
+
+	li {
+		button {
+			&::before {
+				font-size: 10px;
+			}
+		}
+	}
+
+	li.slick-active {
+		button {
+			&::before {
+				color: #ff4600;
+			}
+		}
+	}
+	
+} 

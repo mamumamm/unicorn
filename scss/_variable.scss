@@ -1,0 +1,25 @@
+// Font weights
+$regular: 400;
+$bold: 600;
+$super-bold: 700;
+$black: 900;
+
+// Base Font
+$base-font-family: 'Source Sans Pro', sans-serif;
+$base-font-weight: $regular;
+$base-font-size: 14px;
+
+// Headings
+$header-font-weight: $black;
+
+// Breakpoints
+$bp-small: 320px;
+$bp-medium: 667px;
+$bp-large: 991px;
+$bp-desktop: 1200px;
+
+// Colors
+$c-b: #000;
+$c-w: #fff;
+$box-c: #222;
+$b-g: #f1f1f1;

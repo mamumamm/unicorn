@@ -1,0 +1,47 @@
+/*------------------------------------*\
+  #SECTION-TEAM
+\*------------------------------------*/
+.team {
+
+	.desc-section {
+		margin-bottom: 50px;
+		letter-spacing: 0;
+
+		@media screen and (min-width: $bp-medium) {
+			margin-bottom: 100px;
+			max-width: 780px;
+		}
+	}
+
+	.team-author__section {
+		.author__img {
+			height: 60px;
+		}
+		.author__name {
+			font-size: 16px;
+			font-weight: $bold;
+			height: 40px;
+		}
+		.author__job {
+			font-size: 14px;
+			line-height: 1.2;
+		}
+
+		@media screen and (min-width: $bp-medium) {
+			.author__img {
+				height: 100px;
+				margin-bottom: 40px!important;
+			}
+			.author__name {
+				font-weight: $bold;
+				height: auto;
+				margin-bottom: 5px !important;
+			}
+			.author__job {
+				letter-spacing: 0;
+			}
+		}
+	}
+
+
+}
